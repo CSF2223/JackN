@@ -38,8 +38,8 @@ body {
 .heroImage img {
     border-radius: 6rem;
     box-shadow: 10px 10px #000;
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: auto;
 }
 
 .heroText {
@@ -47,6 +47,8 @@ body {
     padding-bottom: 2rem;
     text-align: center;
     letter-spacing: 5px;
+    margin-right: 150px;
+    margin-top: 70px;
 }
 
 .heroName {
@@ -163,9 +165,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    text-align: center;
-    padding: 2rem;
+    height: 80vh;
+    margin: 5rem;
 }
 
 @media (min-width: 800px) {
